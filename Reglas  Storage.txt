@@ -1,0 +1,11 @@
+Reglas de seguridad para Storage
+Para un prototipo o tutorial inicial:
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      // Permite leer y escribir a cualquier usuario, autenticado o no
+      allow read, write;
+    }
+  }
+}

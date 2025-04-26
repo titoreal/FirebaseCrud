@@ -1,0 +1,8 @@
+Reglas de seguridad para Realtime Database
+Para un prototipo o tutorial inicial:
+{
+  "rules": {
+    ".read": "now < 1747717200000",  // 2025-5-20
+    ".write": "now < 1747717200000",  // 2025-5-20
+  }
+}

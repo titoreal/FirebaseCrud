@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">FirebaseCrud</string>
+    <string name="actualiza_imagen">Por favor sube una imagen</string>
+    <string name="chose_image">Escoge la imagen que deseas</string>
+    <string name="image_description">Ingresa la descripción de la imagen</string>
+    <string name="author_name">Ingresa el nombre del autor</string>
+    <string name="date">Selecciona la fecha</string>
+    <string name="subir_imagen">Subir Imagen</string>
+    <string name="galeria">Galería</string>
+    <string name="cambiar_imagen">Cambiar la imagen</string>
+    <string name="nombre_imagen">Nombre de la Imgen</string>
+    <string name="Autor">Autor</string>
+    <string name="cambiar_fecha">Cambiar fecha</string>
+    <string name="descripcion_imagen">Captura de imagen/descricpión</string>
+    <string name="autor_desconocido">Autor: No determinado</string>
+    <string name="fecha_inespecifica">Fecha: No especificada</string>
+    <string name="image_preview">Vista previa</string>
+    <string name="cambiar">Cambiar</string>
+    <string name="empty_gallery">Galería vacía</string>
+    <string name="no_images">Sin imágenes</string>
+    <string name="add_new_image">Agrega nueva imagen</string>
+    <string name="author_icon">Ícono Autor</string>
+    <string name="date_icon">Ícono fecha</string>
 </resources>

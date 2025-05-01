@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo base con color de fondo general -->
+    <item android:drawable="@color/colorBackground" />
+
+    <!-- Capa de gradiente superpuesta -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/colorPrimary"
+                android:centerColor="@color/colorPrimaryLight"
+                android:endColor="@color/colorAccent"
+                android:angle="135" />
+        </shape>
+    </item>
+
+</layer-list>
